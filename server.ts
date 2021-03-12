@@ -44,7 +44,7 @@ server.get('/api/v1/resend', (req, res) => {
 
 server.use(router);
 
-const port = 8089;
+const port = 8080;
 server.listen(port, () => {
   console.log(`JSON Server is running on port ${port}`);
 });
